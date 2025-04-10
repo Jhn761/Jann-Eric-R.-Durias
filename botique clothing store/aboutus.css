@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, #1458a5, #058eaa);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+  }
+  
+  section.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+  }
+  
+  .lead, p {
+    color: #f0f0f0;
+  }
+  
+  .animated {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+  }
+  
+  .animated.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

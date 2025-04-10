@@ -1,0 +1,60 @@
+
+body {
+    background: linear-gradient(to right, #1458a5, #058eaa);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+ 
+  footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  
+  .animated {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+  }
+  
+  .animated.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+ 
+  .payment-method-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-body {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
